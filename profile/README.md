@@ -29,6 +29,7 @@
 
 Our [examples](https://github.com/proxylity/examples) repo demonstrates real-world UDP patterns and solutions, with full commentary on analogous problems you might face:
 
+- **WireGuard**: Secure IP traffic over encrypted connections without a server, with an example IoT client device.
 - **IoT Telemetry Pipelines**: Ingest device messages into Firehose and S3, iterating quickly on schema changes.  
 - **Game Server Events**: Route game-client actions into Step Functions to spin up new workflows in seconds.  
 - **Captive-Portal Workflows**: Show how a web-initiated Step Function can be completed by a subsequent UDP callback—common in captive WiFi networks.
